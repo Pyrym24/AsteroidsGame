@@ -29,7 +29,7 @@ public void draw()
     olga.get(i).move();
     olga.get(i).show();
     float d = dist(olga.get(i).getX(),olga.get(i).getY(),dave.getZ(),dave.getY());
-    if(d<15){
+    if(d<20){
       olga.remove(olga.get(i));
       background(235,40,40,190);
       j += 1;
