@@ -1,4 +1,4 @@
-class Spaceship extends Floater  
+ class Spaceship extends Floater  
 {   
     //your code here
   public Spaceship(){
@@ -19,5 +19,12 @@ class Spaceship extends Floater
     myCenterY = Math.random()*800;
     myPointDirection = Math.random()*2*PI;
   }
+  public float getZ(){
+    return (float)myCenterX;
+  }
+  public float getY(){
+    return (float)myCenterY;
+  }
+  
 
 }
