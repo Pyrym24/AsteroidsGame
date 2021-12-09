@@ -36,6 +36,9 @@ public void draw()
       background(235,40,40,190);
       j += 1;
     }
+    if(t <=5){
+        oog.show();
+    }
 }
   for(int i = 0; i<n;i++){
   josh[i].show();
