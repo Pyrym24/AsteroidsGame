@@ -1,7 +1,6 @@
 //your variable declarations here
 Star[] josh;
 Spaceship dave;
-Sparks oog;
 ArrayList<Asteroid> olga;
 int n = 100;
 int j = 10;
@@ -12,7 +11,6 @@ public void setup()
   dave = new Spaceship();
   josh = new Star[n];
   olga = new ArrayList<Asteroid>();
-  oog = new Sparks();
   for(int i = 0;i<j;i++){
     olga.add(new Asteroid());
   }
